@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 100% !important;
+                padding: 10px 20px !important;
+            }
+
+            .card {
+                width: 100% !important;
+                margin: 0 !important;
+            }
+
+            .card img {
+                width: 100% !important;
+                max-width: 150px !important;
+                /* Зменшення максимального розміру зображень */
+            }
+
+            h3 {
+                font-size: 16px !important;
+                /* Зменшення розміру заголовків */
+                line-height: 18px;
+            }
+
+            p {
+                font-size: 12px !important;
+                /* Зменшення розміру тексту */
+                line-height: 16px;
+            }
+
+            .container td {
+                padding: 5px 10px !important;
+                /* Зменшення відступів у контейнерах */
+            }
+
+            .container a {
+                padding: 6px 12px !important;
+                /* Зменшення відступів на кнопках */
+                font-size: 14px !important;
+            }
+
+            .container hr {
+                border: 0;
+                border-top: 1px solid #dddddd;
+                margin: 10px 0;
+            }
+
+            .footer td {
+                font-size: 12px !important;
+                padding: 5px !important;
+                text-align: center !important;
+            }
+
+            .footer .contact-info {
+                display: block !important;
+                margin-bottom: 10px;
+            }
+
+            .footer .contact-info img {
+                width: 16px;
+                height: 16px;
+                margin-right: 5px;
+            }
+
+            .footer .contact-info span {
+                font-size: 14px !important;
+            }
+
+            .footer .line {
+                border-top: 1px solid #dddddd;
+                margin: 10px 0;
+            }
+
+            .footer .disclaimer {
+                font-size: 12px !important;
+                line-height: 18px;
+            }
+
+            .footer .subscribe {
+                font-size: 12px !important;
+            }
+        }
+
+        @media only screen and (max-width: 320px) {
+            h3 {
+                font-size: 14px !important;
+                /* Зменшення розміру заголовків на маленьких екранах */
+                line-height: 16px;
+            }
+
+            p {
+                font-size: 10px !important;
+                /* Зменшення розміру тексту */
+                line-height: 14px;
+            }
+
+            .container a {
+                font-size: 12px !important;
+                /* Зменшення шрифтів на кнопках */
+                padding: 6px 12px !important;
+            }
+
+            .card {
+                padding: 15px 10px !important;
+                /* Зменшення відступів у картках */
+            }
+
+            .container td {
+                padding: 0 !important;
+                /* Мінімальні відступи у таблицях */
+            }
+
+            .footer td {
+                font-size: 10px !important;
+                padding: 5px !important;
+            }
+
+            .footer td img{
+                display: none;
+            }
+
+            .footer .contact-info span {
+                font-size: 12px !important;
+            }
+
+            .footer .disclaimer,
+            .footer .subscribe {
+                font-size: 10px !important;
+                line-height: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; color: #333333; background-color: #f7f7f7;">
+
+    <!-- Контейнер для всього листа -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td align="center">
+
+                <!-- Хедер -->
+                <table class="container" width="600" cellpadding="0" cellspacing="0" border="0"
+                    style="max-width:600px; background-image: url('./image/headerBg.jpg'); background-size: auto; background-position: center;padding: 20px 40px;">
+                    <tr>
+                        <td
+                            style="text-align: center; line-height: 20px; font-size: 32px; font-weight: 700; color: #000000;">
+                            Logo here
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Основний Контент -->
+                <table class="container" width="600" cellpadding="0" cellspacing="0" border="0"
+                    style="max-width:600px; padding: 49px 40px 32px; background-image: url('./image/bg.jpg'); background-size: cover; background-position: center; ">
+
+                    <!-- Карточка 1 -->
+                    <tr>
+                        <td class="card"
+                            style="max-width: 520px; max-height: 280px; padding: 20px 20px 55px 20px; background: linear-gradient(74deg, #00C6FB 0%, #005BEA 99%); border-radius: 17px; width: 100%; ">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="60%" style="vertical-align: top; padding-right: 10px;">
+                                        <h3
+                                            style="font-size: 18px; line-height: 20px; font-weight: 700; color: #ffffff; margin: 0; margin-bottom: 12px;">
+                                            Sveta111, win! lottery gifts</h3>
+                                        <p
+                                            style="font-size: 14px; line-height: 20px; font-weight: 400; color: #ffffff; margin: 0; margin-bottom: 12px;">
+                                            We have a whole "Universe of Prizes" and we are ready to share great gifts
+                                            with you! All you have to do to get them is
+                                            win an exciting lottery that runs every day.
+                                        </p>
+                                        <a href="#"
+                                            style="display: inline-block; padding: 10px 20px; background: linear-gradient(90deg, #29323C 0%, #485563 100%); border-radius: 100px; text-decoration: none; font-size: 16px; line-height: 24px; font-weight: 700; color: #ffffff; padding: 8px 56px;">
+                                            Play
+                                        </a>
+                                    </td>
+
+                                    <td width="40%" style="vertical-align: top;">
+                                        <img src="./image/card1.svg" alt="Image"
+                                            style="width: 100%; max-width: 170px; display: block; border-radius: 5px;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                    <!-- Карточка 2 -->
+                    <tr>
+                        <td class="card"
+                            style="max-width: 520px; max-height: 280px; padding: 20px 20px 55px 20px; background: linear-gradient(74deg, #00C6FB 0%, #005BEA 99%); border-radius: 17px; width: 100%; ">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="60%" style="vertical-align: top; padding-right: 10px;">
+                                        <h3
+                                            style="font-size: 18px; line-height: 20px; font-weight: 700; color: #ffffff; margin: 0; margin-bottom: 12px;">
+                                            Become a champion in tournaments</h3>
+                                        <p
+                                            style="font-size: 14px; line-height: 20px; font-weight: 400; color: #ffffff; margin: 0; margin-bottom: 12px;">
+                                            We have a whole "Universe of Prizes" and we are ready to share great gifts
+                                            with you! All you have to do to get them is
+                                            win an exciting lottery that runs every day. </p>
+                                        <a href="#"
+                                            style="display: inline-block; padding: 10px 20px; background: linear-gradient(90deg, #29323C 0%, #485563 100%); border-radius: 100px; text-decoration: none; font-size: 16px; line-height: 24px; font-weight: 700; color: #ffffff; padding: 8px 56px;">
+                                            Play
+                                        </a>
+                                    </td>
+
+                                    <td width="40%" style="vertical-align: top;">
+                                        <img src="./image/card2.svg" alt="Image"
+                                            style="width: 100%; max-width: 210px; display: block; border-radius: 5px;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                    <!-- Карточка 3 -->
+                    <tr>
+                        <td class="card"
+                            style="max-width: 520px; max-height: 280px; padding: 68px 20px 68px 20px; background: linear-gradient(74deg, #00C6FB 0%, #005BEA 99%); border-radius: 17px; width: 100%; ">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td width="60%" style="vertical-align: top; padding-right: 10px;">
+                                        <h3
+                                            style="font-size: 18px; line-height: 20px; font-weight: 700; color: #ffffff; margin: 0; margin-bottom: 12px;">
+                                            Become a VIP client</h3>
+                                        <p
+                                            style="font-size: 14px; line-height: 20px; font-weight: 400; color: #ffffff; margin: 0; margin-bottom: 12px;">
+                                            We have a whole "Universe of Prizes" and we are ready to share great gifts
+                                            with you! All you have to do to get them is
+                                            win an exciting lottery that runs every day. </p>
+                                        <a href="#"
+                                            style="display: inline-block; padding: 10px 20px; background: linear-gradient(90deg, #29323C 0%, #485563 100%); border-radius: 100px; text-decoration: none; font-size: 16px; line-height: 24px; font-weight: 700; color: #ffffff; padding: 8px 56px;">
+                                            Play
+                                        </a>
+                                    </td>
+
+                                    <td width="40%" style="vertical-align: top;">
+                                        <img src="./image/card3.svg" alt="Image"
+                                            style="width: 100%; max-width: 220px; display: block; border-radius: 5px;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Footer -->
+                <table class="container footer" width="600" cellpadding="0" cellspacing="0" border="0"
+                    style="max-width:600px; background-color: #ffffff; padding: 20px 40px;">
+                    <!-- Контактна інформація -->
+                    <tr>
+                        <td colspan="2"
+                            style="font-size: 14px; line-height: 16px; font-weight: 400; color: #52575C; text-align: center; padding-bottom: 10px;">
+                            If you have questions, please contact us:
+                        </td>
+                    </tr>
+                    <tr
+                        style="font-size: 14px; line-height: 16px; font-weight: 400; color: #52575C; text-align: center; padding-bottom: 10px;">
+                        <td width="50%" style="text-align: right; padding-right: 10px;">
+                            <!-- Email з SVG іконкою -->
+                            <img src="./image/mail.svg" alt="Email Icon"
+                                style="vertical-align: middle; width: 16px; height: 16px; margin-right: 5px;">
+                            <span>support@support.email</span>
+                        </td>
+                        <td width="50%" style="text-align: center; padding-left: 10px;">
+                            <!-- Телефон з SVG іконкою -->
+                            <img src="./image/phone.svg" alt="Phone Icon"
+                                style="vertical-align: middle; width: 16px; height: 16px; margin-right: 5px;">
+                            <span>1234566789</span>
+                        </td>
+                
+                    </tr>
+                
+                    <!-- Рисочка -->
+                    <tr>
+                        <td colspan="2" style="padding: 10px 0;">
+                            <hr style="border: 0; border-top: 1px solid #dddddd; margin: 0;">
+                        </td>
+                    </tr>
+                
+                    <!-- Застереження -->
+                    <tr>
+                        <td colspan="2"
+                            style="font-size: 14px; line-height: 16px; font-weight: 400; color: #52575C; text-align: center; padding-bottom: 10px;text-align: center; padding: 10px 0;">
+                            Some games and bonuses may not be available in your country.
+                        </td>
+                    </tr>
+                
+                    <!-- Текст із посиланням -->
+                    <tr>
+                        <td colspan="2"
+                            style="font-size: 14px; line-height: 16px; font-weight: 400; color: #52575C; text-align: center; padding-bottom: 10px; text-align: center; padding: 10px 0;">
+                            You take all the credit for the fact that you have registered on our site.<br>
+                            For a return link with us, please send a copy to the whole sheet.<br>
+                            You can <a href="#" style="color: #4a90e2; text-decoration: none;">subscribe</a>.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+
+
